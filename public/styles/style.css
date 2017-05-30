@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/background-img.jpg");
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.button-spacing {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.calculator {
+    position: absolute;
+    width: 190px;
+    height: 270px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    padding-left: 10px;
+    margin: -100px 0 0 -150px;
+    background: darkgrey;
+    opacity: 0.95;
+    box-shadow: 5px 5px 5px black;
+}
